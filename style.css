@@ -1,3 +1,25 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://img.freepik.com/premium-photo/3d-rendering-digital-art-illustration-variety-shapes_861655-30.jpg);
+    background-size:cover;
+    background-position: center;
+    
+} */
 *{
     margin: 0;
     padding: 0;
@@ -75,6 +97,7 @@ main{
     color: white;
     text-align: center;
     padding: 15px;
+    font-size: 20px;
 }
 .b2{
     width: 30%;
@@ -82,13 +105,26 @@ main{
     display: flex;
     flex-direction: column;    
 }
-.b2.up{
+.b2 .up{
     width: 100%;
     min-height: 20vh;
     background-image: url(https://images.unsplash.com/photo-1570051008600-b34baa49e751?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
     background-size: cover;
     background-position: center;
-}
+}    
+.b2 p{
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}    
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ftiiTa_tdjEqq-Rry_4t-pLY67TqETsjbQ&s); 
+    background-size: cover;
+    background-position: center;
+}    
 .b3{
     width: 40%;
     min-height: inherit;
@@ -96,7 +132,7 @@ main{
     background-size: cover;
     background-position: center;
 }
-.b3.overlay{
+.b3 .overlay{
     justify-content: right;
     position: relative;
     margin-left: 50%;
@@ -104,6 +140,7 @@ main{
     height: 100%;
     padding: 4vh 3vh;
 }
-.b3.overlay p{
+.b3 .overlay p{
     padding: 1.2vh;
+    font-size: 25px;
 }   
